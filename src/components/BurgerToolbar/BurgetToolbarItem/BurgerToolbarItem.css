@@ -1,0 +1,39 @@
+.BurgerToolbarItem {
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .BurgerToolbarItem {
+    width: 700px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .BurgerToolbarItem {
+    width: 450px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 500) and (min-height: 400px) {
+  .BurgerToolbarItem {
+    width: 350px;
+    height: 40px;
+  }
+}
+
+.Lable {
+  text-align: center;
+  padding: 10px;
+}
+
+.Button {
+  text-align: center;
+  margin: auto;
+  margin: 7px;
+}
